@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/0019c10cab.js" crossorigin="anonymous"></script>
+
+    <title>Landing Page</title>
+</head>
+
+<body onload="animation();">
+    <div class="container">
+        <div class="form-section" id="form-section">
+            <div class="container">
+                <h3>ХОТИТЕ <br>персональную скидку в 15%?</h3>
+                <div class="text-list">
+                    <div>
+                        <i class="fas fa-check"></i>
+                        <p>Предлагаем широкий ассортимент продукции
+                            для всех видов бизнеса</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-check"></i>
+                        <p>Гарантируем оперативную доставку до склада,
+                            сохранность груза и полную отчетность</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-check"></i>
+                        <p>Компетентная консультация по всем вопросам</p>
+                    </div>
+                    <div>
+                        <i class="fas fa-check"></i>
+                        <p>Оставьте номер телефона и получите наш прайс</p>
+                    </div>
+
+                </div>
+                <div class="form">
+                    <form action="">
+                        <input type="tel" class="" id="" name="phon" placeholder="Введите номер телефона" required="">
+                        <div class="text-block">
+                            Отправляя сообщение, я принимаю <a href="">пользовательское соглашение</a> и подтверждаю,
+                            что
+                            ознакомлен и согласен
+                            с <a href="">политикой конфиденциальности</a> данного сайта.
+                        </div>
+                        <div class="button">
+                            <button>получить прайс</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="contant-section">
+            <div class="container">
+                <div class="logo">
+                    <div>
+                        <img src="img/Без имени-1.png" alt="">
+                    </div>
+                    <div>
+                        <p>Славянская</p>
+                        <p>Тара</p>
+                    </div>
+                </div>
+                <div class="title">
+                    <h2>ВАША ВЫГОДА 15% <span>ПРИ ПОКУПКЕ</span></h2>
+                    <h2><span>ПЛАСТИКОВЫХ ЯЩИКОВ</span></h2>
+                    <h2><span>С ДОСТАВКОЙ</span> ПО ВСЕЙ РОССИИ</h2>
+                </div>
+                <div class="text-list">
+                    <p>- Предоставляем бесплатные образцы
+                        и опытные партии</p>
+                    <p>- Низкие цены, персональные предложения,
+                        работаем с НДС</p>
+                    <p>- Берем на себя расчет всей логистики</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/aos.js"></script>
+    <script>
+        function animation() {
+            let form_section = document.getElementById("form-section");
+            form_section.classList.add("fade-right");
+
+        }
+    </script>
+</body>
+
+</html>
